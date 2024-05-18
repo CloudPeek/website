@@ -10,13 +10,13 @@ export async function GET(req) {
   }
 
   let author = {
-    name: 'Spencer Sharp',
-    email: 'spencer@planetaria.tech',
+    name: 'Craig Hollington',
+    email: 'craig.hollington@cloudpeek.dev',
   }
 
   let feed = new Feed({
     title: author.name,
-    description: 'Your blog description',
+    description: 'Cloud secruity and observability',
     author,
     id: siteUrl,
     link: siteUrl,
