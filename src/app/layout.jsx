@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Spencer Sharp',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Cloud Peek',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Craig, a Solutions arcitect and make tools to make managing your cloud environment easier.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

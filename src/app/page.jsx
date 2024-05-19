@@ -260,28 +260,23 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Cloud Solutions at your fingertips
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I'm Craig, and my mission is to make cloud security and observability both affordable and accessible for everyone.  
+            I am committed to breaking down the barriers to entry, providing robust and user-friendly solutions that simplify the complexities of cloud security. 
+            A crucial part of my approach is a commitment to open-sourcing some of our solutions, fostering a collaborative environment where the community can contribute to and benefit from enhanced security measures. 
+            By leveraging cutting-edge technology, educational initiatives, and an open-source philosophy, I aim to empower businesses of all sizes to protect their assets and maintain visibility over their operations without breaking the bank. 
+            With a focus on efficiency, ease of use, and continuous learning, my goal is to ensure that every organization can confidently navigate the cloud with peace of mind.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
+              href="https://github.com/CloudPeek/website"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/craighollington/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
@@ -295,10 +290,6 @@ export default async function Home() {
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
           </div>
         </div>
       </Container>
