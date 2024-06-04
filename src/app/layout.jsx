@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Craig Hollington',
     default:
       'Cloud Peek',
   },

@@ -37,27 +37,12 @@ export default function ServicesPage() {
        Whether you're looking for technical support, business consultation, or creative solutions, we've got you covered."
     >
       <div className="space-y-20">
-        <ServicesSection title="Consulting">
-          <Service
-            href="#"
-            title="Technical Consulting"
-            description="Get expert technical advice to optimize your AWS infrastructure and improve efficiency."
-            category="Consulting"
-            cta="Learn more"
-          />
-        </ServicesSection>
+
         <ServicesSection title="Products">
           <Service
-            href="#"
-            title="Mission Control"
-            description="Our mission control software helps you to manage the secruity and compliance of your cloud infrastructure."
-            category="Operations"
-            cta="See the AWS marketplace store"
-          />
-          <Service
-            href="#"
+            href="https://github.com/CloudPeek/IAM-Anaylzer/tree/master"
             title="IAM anaylzer"
-            description="Discover the IAM roles and policies that are in use across your AWS accounts."
+            description="Discover the IAM roles and policies that are in use across your AWS accounts and anaylse the policices using AI."
             category="Identity & Access Management"
             cta="See the AWS marketplace store"
           />
