@@ -92,10 +92,10 @@ export default function About() {
               View my certifications
             </SocialLink>
             <SocialLink
-              href="mailto:craig.hollington@gmail.com"
-              icon={MailIcon}
+              href="mailto:craig@chollington.com" icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
+              craig@chollington.com
               
             </SocialLink>
 

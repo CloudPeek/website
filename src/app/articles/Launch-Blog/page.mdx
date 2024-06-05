@@ -1,0 +1,39 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Craig Hollington',
+  date: '2024-06-05',
+  title: 'Deploying a next.js site to AWS ECS with github actions',
+  description:
+  'Descover how to host your next.js site through AWS ECS with cloudfront, with a CI/CD pipeline'
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Welcome, I'm Craig, a Solution Architect by day and Cloud Developer by night.
+
+I'm currently working on making platform teams' lives easier by bringing visibility and AI-powered advice to them.
+
+## The Mission
+
+My mission is to bring tools that add value to a team's workflow. To achieve this, the tools must meet one of the three criteria:
+
+1. Enhance visibility in a way that you can't get with the native tool.
+2. Enhance security.
+3. Present data in a way that decisions can be made quickly and reliably.
+
+My work will have a big focus on open-source with paid-for tooling available. This will be in the form of self-hosting, normally done via the AWS/Azure marketplace (whichever one is most appropriate).
+
+## Who am I? And Why Should You Care?
+
+I'm a cybersecurity professional with 10 years of experience in the field, having worked in consultancies and the defense sector. Over the last year and a half, I've architected and built the AWS platform capability, working within a secure environment. From this experience, I've learned what AWS does well and where it falls short. 
+
+From my learnings and frustrations, I intend not only to educate but also to help fix the issues I've encountered. My deep understanding of AWS's strengths and weaknesses, combined with my hands-on experience, equips me to offer valuable insights and solutions to common challenges faced by platform teams. Whether it's through enhancing visibility, improving security, or enabling faster and more reliable decision-making, my goal is to make a meaningful impact on your workflow.
+
+Stay tuned for more updates and tools designed to make your life easier. The first tool I'll be releasing is an AWS IAM analyzer, which enhances the visibility of IAM roles and attached policies. Feel free to check out the products page for more information. A full blog will be released soon for its launch!
