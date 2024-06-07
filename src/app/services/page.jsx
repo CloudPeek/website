@@ -33,14 +33,13 @@ export default function ServicesPage() {
   return (
     <SimpleLayout
       title="Our Services"
-      intro="We offer a wide range of services to help you achieve your goals.
-       Whether you're looking for technical support, business consultation, or creative solutions, we've got you covered."
+      intro="We offer create services to enable your platfrom"
     >
       <div className="space-y-20">
 
         <ServicesSection title="Products">
           <Service
-            href="https://github.com/CloudPeek/IAM-Anaylzer/tree/master"
+            href="https://iam-anaylzer.chollington.co.uk"
             title="IAM anaylzer"
             description="Discover the IAM roles and policies that are in use across your AWS accounts and anaylse the policices using AI."
             category="Identity & Access Management"
